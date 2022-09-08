@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import steps.PageInitilizer;
+import projectSteps.PageInitializer;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,7 +17,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-public class CommonMethods extends PageInitilizer {
+public class CommonMethods extends PageInitializer {
     public static WebDriver driver;
 
     public static void openBrowserAndLaunchApplication() {
